@@ -39,7 +39,7 @@ print(a)
 #all 1s matrix
 b=np.ones((3,3,3))
 print(b)
-
+a.six
 #any other no
 c=np.full((2,2),11)
 print(c)
@@ -144,8 +144,7 @@ v2=np.array([5,6,7,8])
 v3=np.hstack([v1,v2])
 print(v3)"""
 
-c=np.array([[None],[None]]).repeat(10,axis=1)
-print(c)
+
 
 
 

@@ -77,7 +77,3 @@ for epoch in range(10):
             total+=labels.size(0)
             correct+=(predicted==labels).sum().item()
     print(f"test accuracy:{100*correct/total:2f}%")    
-
-
-
-
