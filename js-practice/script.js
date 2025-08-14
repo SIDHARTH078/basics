@@ -1,5 +1,9 @@
 //script.js
 function sayhello(){
-    alert("hello there");
+    alert("welcome to javascript practice");
+}
+
+function what(){
+    alert("what is javascript?");
 }
     

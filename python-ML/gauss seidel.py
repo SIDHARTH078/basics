@@ -4,7 +4,7 @@ class GaussSeidelSolver:
         self.b = b
         self.tolerance = tolerance
         self.max_iterations = max_iterations
-
+ 
     def solve(self):
         n = len(self.A)
         x = [0 for _ in range(n)]
@@ -28,6 +28,4 @@ b = [4, 7, 3]
 solver = GaussSeidelSolver(A, b)
 solution = solver.solve()
 print("Solution:", solution)
-print("Expected:", [1, 1, 1])  
-
-
+print("Expected:", [1, 1, 1])
